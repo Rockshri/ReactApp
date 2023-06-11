@@ -1,0 +1,53 @@
+body{
+    background-color: black;
+   
+}
+h1{
+    text-align: center;
+    color: cadetblue;
+    font-size: 70px;
+}
+h5{
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+}
+.Container{
+    max-width: 1300px;
+    /* border: 1px red solid; */
+    margin:2px auto;
+    padding: 10px;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-around;
+    
+    grid-gap: 50px;
+}
+.card{
+    /* border:1px rgb(178, 53, 53) solid; */
+    background-color: rgb(11, 10, 10);
+    width:100%;
+    box-shadow: 3px 3px  10px whitesmoke;
+    border-radius: 30px;
+    padding: 10px;
+}
+h5{
+    color: rgb(185, 145, 231);
+    font-size: xx-large;
+
+}
+p{
+    color: bisque;
+}
+.discription{
+    color: rgb(69, 176, 234);
+    font-size: large;
+    font-weight:bold;
+    text-decoration: underline;
+}
+img{
+    width:70%;
+    margin: 3px auto;
+    height:200px;
+    object-fit: contain;
+}
